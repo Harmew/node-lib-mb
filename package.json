@@ -1,0 +1,22 @@
+{
+  "name": "node-lib-md",
+  "version": "1.0.0",
+  "description": "A node lib to print a message from a markdown file",
+  "main": "./src/dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "cli": "node ./src/dist/cli.js --c ",
+    "cli:validity": "node ./src/dist/cli.js --validity",
+    "cli:v": "node ./src/dist/cli.js --validity"
+  },
+  "author": "Harmew",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "typescript": "^5.1.6"
+  }
+}
